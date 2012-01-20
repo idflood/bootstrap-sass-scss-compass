@@ -3,6 +3,3 @@ js/min
 
 # local dev
 config/*
-
-# ignore the compiled bootstrap.css from the main repo during dev
-bootstrap.css
