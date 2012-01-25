@@ -4,11 +4,10 @@
     <meta charset="utf-8">
     <title>Bootstrap, from Twitter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -19,87 +18,41 @@
     <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
 
     <!-- Le fav and touch icons -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/ico/favicon.ico">
-    <link rel="apple-touch-icon" href="assets/ico/bootstrap-apple-57x57.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/ico/bootstrap-apple-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/ico/bootstrap-apple-114x114.png">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
   </head>
 
   <body>
-
-    <!-- Navbar
+  
+  <!-- Navbar
     ================================================== -->
-    <div class="navbar navbar-fixed" data-scrollspy="scrollspy">
+    <div class="navbar navbar-fixed">
       <div class="navbar-inner">
         <div class="container">
           <a class="brand" href="./index.html">Bootstrap</a>
           <ul class="nav">
-            <li class="active"><a href="./index.html">Overview</a></li>
-            <li class="dropdown">
-              <a href="./scaffolding.html" class="dropdown-toggle" data-toggle="dropdown">
-                Scaffolding
-                <b class="caret"></b>
-              </a>
-              <ul class="dropdown-menu">
-                <li><a href="./scaffolding.html#grid-system">Grid system</a></li>
-                <li><a href="./scaffolding.html#layouts">Layouts</a></li>
-                <li><a href="./scaffolding.html#responsive">Responsive design</a></li>
-              </ul>
+            <li class="active">
+              <a href="./index.html">Overview</a>
             </li>
-            <li class="dropdown">
-              <a href="./base-css.html" class="dropdown-toggle" data-toggle="dropdown">
-                Base CSS
-                <b class="caret"></b>
-              </a>
-              <ul class="dropdown-menu">
-                <li><a href="./base-css.html#typography">Typography</a></li>
-                <li><a href="./base-css.html#tables">Tables</a></li>
-                <li><a href="./base-css.html#forms">Forms</a></li>
-                <li><a href="./base-css.html#buttons">Buttons</a></li>
-                <li><a href="./base-css.html#icons">Icons by Glyphicons</a></li>
-              </ul>
+            <li class="">
+              <a href="./scaffolding.html">Scaffolding</a>
             </li>
-            <li class="dropdown">
-              <a href="./components.html" class="dropdown-toggle" data-toggle="dropdown">
-                Components
-                <b class="caret"></b>
-              </a>
-              <ul class="dropdown-menu">
-                <li><a href="./components.html#buttonGroups">Button groups</a></li>
-                <li><a href="./components.html#buttonDropdowns">Split button dropdowns</a></li>
-                <li><a href="./components.html#navs">Nav, tabs, pills</a></li>
-                <li><a href="./components.html#navbar">Navbar</a></li>
-                <li><a href="./components.html#breadcrumbs">Breadcrumbs</a></li>
-                <li><a href="./components.html#pagination">Pagination</a></li>
-                <li><a href="./components.html#thumbnails">Thumbnails</a></li>
-                <li><a href="./components.html#alerts">Alert messages</a></li>
-                <li><a href="./components.html#progress">Progress bars</a></li>
-              </ul>
+            <li class="">
+              <a href="./base-css.html">Base CSS</a>
             </li>
-            <li class="dropdown">
-              <a href="./javascript.html" class="dropdown-toggle" data-toggle="dropdown">
-                Javascript plugins
-                <b class="caret"></b>
-              </a>
-              <ul class="dropdown-menu">
-                <li><a href="./javascript.html#javascript">Overview</a></li>
-                <li><a href="./javascript.html#modals">Modal</a></li>
-                <li><a href="./javascript.html#dropdowns">Dropdown</a></li>
-                <li><a href="./javascript.html#scrollspy">Scrollspy</a></li>
-                <li><a href="./javascript.html#tabs">Tab</a></li>
-                <li><a href="./javascript.html#tooltips">Tooltip</a></li>
-                <li><a href="./javascript.html#popovers">Popover</a></li>
-                <li><a href="./javascript.html#alerts">Alert</a></li>
-                <li><a href="./javascript.html#buttons">Button</a></li>
-                <li><a href="./javascript.html#collapse">Collapse</a></li>
-                <li><a href="./javascript.html#carousel">Carousel</a></li>
-                <li><a href="./javascript.html#typeahead">Typeahead</a></li>
-              </ul>
+            <li class="">
+              <a href="./components.html">Components</a>
             </li>
-            <li>
-              <a href="./less.html">
-                Using LESS
-              </a>
+            <li class="">
+              <a href="./javascript.html">Javascript plugins</a>
+            </li>
+            <li class="">
+              <a href="./less.html">Using LESS</a>
+            </li>
+            <li class="">
+              <a href="./download.html">Download</a>
             </li>
           </ul>
         </div>
@@ -124,13 +77,13 @@
             <div class="benefits">
               <h4>Feature highlights</h4>
               <ul>
-                <li><span>&times;</span> Built on LESS</li>
-                <li><span>&times;</span> Complete styleguide docs</li>
-                <li><span>&times;</span> Fully responsive design</li>
-                <li><span>&times;</span> Small footprint (7kb gzipped)</li>
-                <li><span>&times;</span> Support for IE7 and up</li>
-                <li><span>&times;</span> Custom jQuery plugins</li>
-                <li><span>&times;</span> Dozens of components</li>
+                <li><span>&#10004;</span> Built on LESS</li>
+                <li><span>&#10004;</span> Complete styleguide docs</li>
+                <li><span>&#10004;</span> Fully responsive design</li>
+                <li><span>&#10004;</span> Small footprint (10kb gzipped)</li>
+                <li><span>&#10004;</span> Support for IE7 and up</li>
+                <li><span>&#10004;</span> Custom jQuery plugins</li>
+                <li><span>&#10004;</span> Dozens of components</li>
               </ul>
             </div>
           </div>
@@ -149,12 +102,6 @@
           <li>
             <iframe class="github-btn" src="http://markdotto.github.com/github-buttons/github-btn.html?user=twitter&repo=bootstrap&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="98px" height="20px"></iframe>
           </li>
-<!--
-          <li><strong>Authors</strong></li>
-          <li><a href="http://twitter.com/mdo">@mdo</a></li>
-          <li><a href="http://twitter.com/fat">@fat</a></li>
- -->
-
           <li class="divider">&middot;</li>
           <li class="follow-btn">
             <a href="https://twitter.com/twbootstrap" class="twitter-follow-button" data-width="145px" data-link-color="#0069D6" data-show-count="false">Follow @twbootstrap</a>
@@ -226,7 +173,7 @@
             <div class="span4">
               <img class="icon" src="assets/img/glyphicons/glyphicons_082_roundabout.png">
               <h2>Growing library</h2>
-              <p>Despite being only 7kb (gzipped), Bootstrap is one of the most complete front-end toolkits out there with dozens of fully functional components ready to be put to use.</p>
+              <p>Despite being only 10kb (gzipped), Bootstrap is one of the most complete front-end toolkits out there with dozens of fully functional components ready to be put to use.</p>
             </div>
             <div class="span4">
               <img class="icon" src="assets/img/glyphicons/glyphicons_009_magic.png">
@@ -267,38 +214,35 @@
           ================================================== -->
           <h1>Get started in no time.</h1>
           <p class="marketing-byline">Quickly start using Bootstrap within your workflow and development process.</p>
-          <table class="table table-bordered getting-started">
-            <tbody>
-              <tr>
-                <td class="quick-start">
-                  <h3>Hotlink the CSS</h3>
-                  <p>For the quickest and easiest start, just copy this snippet into your webpage.</p>
-                  <form>
-                    <textarea class="copy-code" rows="1">&lt;link rel="stylesheet" href="http://twitter.github.com/bootstrap/assets/css/bootstrap.min.css"></textarea>
-                  </form>
-                </td>
-                <td class="quick-start">
-                  <h3>Use it with LESS</h3>
-                  <p>A fan of using LESS? No problem, just clone the repo and add these lines:</p>
-                  <form>
-                    <textarea class="copy-code" rows="2">&lt;link rel="stylesheet/less" href="/path/to/bootstrap.less"&gt;
-      &lt;script src="/path/to/less.js"&gt;&lt;/script&gt;</textarea>
-                  </form>
-                </td>
-                <td class="quick-start">
-                  <h3>Fork on GitHub</h3>
-                  <p>Download, fork, pull, file issues, and more with the Bootstrap GitHub repo.</p>
-                  <p><a target="_blank" href="https://github.com/twitter/bootstrap" class="btn primary">Bootstrap on GitHub &raquo;</a></p>
-                  <p class="current-version">Currently <a href="https://github.com/twitter/bootstrap/wiki/Changelog">v2.0.0</a></p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+          <div class="getting-started">
+            <div class="row">
+              <div class="span4">
+                <h3>Hotlink the CSS</h3>
+                <p>For the quickest and easiest start, just copy this snippet into your webpage.</p>
+                <form>
+                  <textarea class="copy-code" rows="1">&lt;link rel="stylesheet" href="http://twitter.github.com/bootstrap/assets/css/bootstrap.min.css"></textarea>
+                </form>
+              </div> 
+              <div class="span4">
+                <h3>Use it with LESS</h3>
+                <p>A fan of using LESS? No problem, just download the repo and add these lines to your page:</p>
+                <form>
+                  <textarea class="copy-code" rows="2">&lt;link rel="stylesheet/less" href="/path/to/bootstrap.less"&gt;
+    &lt;script src="/path/to/less.js"&gt;&lt;/script&gt;</textarea>
+                </form>
+              </div> 
+              <div class="span4">
+                <h3>Fork on GitHub</h3>
+                <p>Download, fork, pull, file issues, and more with the Bootstrap GitHub repo.</p>
+                <p><a target="_blank" href="https://github.com/twitter/bootstrap" class="btn primary">Bootstrap on GitHub &raquo;</a></p>
+                <p class="current-version">Currently <a href="https://github.com/twitter/bootstrap/wiki/Changelog">v2.0.0</a></p>
+              </div> 
+            </div><!-- /row -->
+          </div><!-- /getting-started -->
+
         </div><!-- /.marketing -->
       </div><!-- /#overview -->
-
-
-      <!-- Footer
+     <!-- Footer
       ================================================== -->
       <footer class="footer">
         <p class="pull-right"><a href="#">Back to top</a></p>
@@ -306,13 +250,27 @@
         <p>Code licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>. Documentation licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
         <p>Icons from <a href="http://glyphicons.com">Glyphicons Free</a>, licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
       </footer>
+
     </div><!-- /container -->
+
 
     <!-- Le javascript -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-    <script src="http://code.jquery.com/jquery-1.7.min.js"></script>
-    <script src="assets/js/application.js"></script>
+    <!-- <script src="http://code.jquery.com/jquery-1.7.min.js"></script> -->
+    <script src="../js/tests/vendor/jquery.js"></script>
+    <script src="assets/js/google-code-prettify/prettify.js"></script>
+    <script src="../js/bootstrap-transition.js"></script>
+    <script src="../js/bootstrap-alert.js"></script>
+    <script src="../js/bootstrap-modal.js"></script>
     <script src="../js/bootstrap-dropdown.js"></script>
+    <script src="../js/bootstrap-scrollspy.js"></script>
+    <script src="../js/bootstrap-tab.js"></script>
+    <script src="../js/bootstrap-tooltip.js"></script>
+    <script src="../js/bootstrap-popover.js"></script>
+    <script src="../js/bootstrap-button.js"></script>
+    <script src="../js/bootstrap-collapse.js"></script>
+    <script src="../js/bootstrap-carousel.js"></script>
+    <script src="../js/bootstrap-typeahead.js"></script>
+    <script src="assets/js/application.js"></script>
   </body>
 </html>
