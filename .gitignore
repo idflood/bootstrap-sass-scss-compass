@@ -12,12 +12,9 @@
 
 # OS or Editor folders
 .DS_Store
-<<<<<<< HEAD
 js/min
 
-# local dev
-config/*
-=======
+# local dev config/*
 Thumbs.db
 .cache
 .project
@@ -40,4 +37,3 @@ nbproject
 
 # Misc
 js/min
->>>>>>> upstream/2.0-wip
