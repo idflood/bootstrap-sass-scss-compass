@@ -3,6 +3,7 @@
 
 .carousel {
   position: relative;
+  margin-bottom: $baseLineHeight;
   line-height: 1;
 }
 
@@ -18,6 +19,12 @@
     display: none;
     position: relative;
     @include transition(.6s ease-in-out left);
+  }
+
+  // Account for jankitude on images
+  .item > img {
+    display: block;
+    line-height: 1;
   }
 
   .active, 
@@ -68,11 +75,19 @@
   font-size: 60px;
   font-weight: 100;
   line-height: 30px;
-  color: #ccc;
+  color: $white;
   text-align: center;
-  background: #999;
-  background: rgba(0,0,0,.5);
+  background: $grayDarker;
+  border: 3px solid $white;
   @include border-radius(20px);
+  @include opacity(50);
+
+  // we can't have this transition here
+  // because webkit cancels the carousel
+  // animation if you trip this while
+  // in the middle of another animation
+  // ;_;
+  // .transition(opacity .2s linear);
 
   // Reposition the right one
   &.right {
@@ -82,10 +97,9 @@
 
   // Hover state
   &:hover {
-    color: #fff;
+    color: $white;
     text-decoration: none;
-    background: #333;
-    background: rgba(0,0,0,.75);
+    @include opacity(90);
   }
 }
 
@@ -98,10 +112,10 @@
   right: 0;
   bottom: 0;
   padding: 10px 15px 5px;
-  background: #333;
+  background: $grayDark;
   background: rgba(0,0,0,.75);
 }
 .carousel-caption h4,
 .carousel-caption p {
-  color: #fff;
+  color: $white;
 }

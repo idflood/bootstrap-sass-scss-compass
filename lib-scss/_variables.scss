@@ -1,55 +1,52 @@
-// Variables
+// VARIABLES
 // Variables to customize the look and feel of Bootstrap
 // -----------------------------------------------------
+
 
 
 // LINK COLORS
 // -----------
 
-$linkColor:         #08c;
-$linkColorHover:    darken($linkColor, 15);
+$linkColor:             #08c;
+$linkColorHover:        darken($linkColor, 15);
 
 
-// GRAYS
-// -----
+// Grays
+$black:                 #000;
+$grayDarker:            #222;
+$grayDark:              #333;
+$gray:                  #555;
+$grayLight:             #999;
+$grayLighter:           #eee;
+$white:                 #ffffff;
 
-$black:             #000;
-$grayDark:          #333;
-$gray:              #555;
-$grayLight:         #999;
-$grayLighter:       #eee;
-$white:             #fff;
+// Accent colors
+$blue:                  #049cdb;
+$blueDark:              #0064cd;
+$green:                 #46a546;
+$red:                   #9d261d;
+$yellow:                #ffc40d;
+$orange:                #f89406;
+$pink:                  #c3325f;
+$purple:                #7a43b6;
 
+// Typography
+$baseFontSize:          13px;
+$baseFontFamily:        "Helvetica Neue", Helvetica, Arial, sans-serif;
+$baseLineHeight:        18px;
+$textColor:             $grayDark;
 
-// ACCENT COLORS
-// -------------
-
-$blue:              #049CDB;
-$blueDark:          #0064CD;
-$green:             #46a546;
-$red:               #9d261d;
-$yellow:            #ffc40d;
-$orange:            #f89406;
-$pink:              #c3325f;
-$purple:            #7a43b6;
-
-
-// GRID
-// ----
-
-// Modify the grid styles in mixins.less
-$gridColumns:       12;
-$gridColumnWidth:   60px;
-$gridGutterWidth:   20px;
-$siteWidth:         ($gridColumns * $gridColumnWidth) + ($gridGutterWidth * ($gridColumns - 1));
-
-// Fluid width sidebar
-$fluidSidebarWidth: 220px;
+// Buttons
+$primaryButtonBackground:    $linkColor;
 
 
-// Z-INDEX
-// -------
 
+// COMPONENT VARIABLES
+// --------------------------------------------------
+
+// Z-index master list
+// Used for a bird's eye view of components dependent on the z-axis
+// Try to avoid customizing these :)
 $zindexDropdown:        1000;
 $zindexPopover:         1010;
 $zindexTooltip:         1020;
@@ -57,21 +54,46 @@ $zindexFixedNavbar:     1030;
 $zindexModalBackdrop:   1040;
 $zindexModal:           1050;
 
+// Input placeholder text color
+$placeholderText:       $grayLight;
 
-// THEME VARIABLES
-// ---------------
+// Navbar
+$navbarHeight:                    40px;
+$navbarBackground:                $grayDarker;
+$navbarBackgroundHighlight:       $grayDark;
 
-// Typography
+$navbarText:                      $grayLight;
+$navbarLinkColor:                 $grayLight;
+$navbarLinkColorHover:            $white;
 
-// fonts
-$fontFamilySerif:		Georgia, "Times New Roman", Times, serif;
-$fontFamilySansSerif:	"Helvetica Neue", Helvetica, Arial, sans-serif;
-$fontFamilyMonospace:	Menlo, Monaco, Courier New, monospace;
+// Form states and alerts
+$warningText:             #c09853;
+$warningBackground:       #fcf8e3;
+$warningBorder:           darken(adjust-hue($warningBackground, -10), 3%);
 
-$baseFontSize:          13px;
-$baseFontFamily:        $fontFamilySansSerif;
-$baseLineHeight:        18px;
+$errorText:               #b94a48;
+$errorBackground:         #f2dede;
+$errorBorder:             darken(adjust-hue($errorBackground, -10), 3%);
 
-    
-// Visuals
-$primaryButtonColor:    $blue;
+$successText:             #468847;
+$successBackground:       #dff0d8;
+$successBorder:           darken(adjust-hue($successBackground, -10), 5%);
+
+$infoText:                #3a87ad;
+$infoBackground:          #d9edf7;
+$infoBorder:              darken(adjust-hue($infoBackground, -10), 7%);
+
+
+
+// GRID
+// ----
+
+// Default 940px grid
+$gridColumns:             12;
+$gridColumnWidth:         60px;
+$gridGutterWidth:         20px;
+$gridRowWidth:            ($gridColumns * $gridColumnWidth) + ($gridGutterWidth * ($gridColumns - 1));
+
+// Fluid grid
+$fluidGridColumnWidth:    6.382978723%;
+$fluidGridGutterWidth:    2.127659574%;
