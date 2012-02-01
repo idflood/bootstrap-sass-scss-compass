@@ -20,6 +20,8 @@ Authors
 + [@Brajeshwar](http://twitter.com/Brajeshwar "Title") on Twitter.
 + http://brajeshwar.com
 
+_Looking for co-authors who can help with development of the Compass version._
+
 Copyright, license _et al_
 -------------------------
 
