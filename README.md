@@ -19,7 +19,7 @@ Authors
 + http://brajeshwar.com
 + http://twitter.com/Brajeshwar
 
-More
--------
+Copyright, License _et al_
+-------------------------
 
-Copyright, license and everything else, please refer the original <a href="https://github.com/twitter/bootstrap#readme">Readme for Twitter Bootstrap</a>.
+Please refer to the original <a href="https://github.com/twitter/bootstrap#readme">Readme for Twitter Bootstrap</a> for Copyright, license and everything else.
