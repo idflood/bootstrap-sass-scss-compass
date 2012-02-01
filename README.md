@@ -1,23 +1,24 @@
 TWITTER BOOTSTRAP (SASS, SCSS)
 ======================================
 
-This README refers to the `scss` and `saaa` version of Twitter Bootstrap.
+A `scss` and `sass` version of Twitter Bootstrap.
+The `scss` version is actively maintained while the `sass` is a converted from the `scss` version using `sass-convert`.
 
-Bootstrap is Twitter's toolkit for kickstarting CSS for websites, apps, and more. It includes base CSS styles for typography, forms, buttons, tables, grids, navigation, alerts, and more.
+> Bootstrap is Twitter's toolkit for kickstarting CSS for websites, apps, and more.
+> It includes base CSS styles for typography, forms, buttons, tables, grids, navigation, alerts, and more.
 
 Developers
 ----------
 
-<a href="http://compass-style.org/">Compass</a> is an awesome authoring tool to author and compile `sass` and `scss` files.
-
+I use <a href="http://compass-style.org/">Compass</a> to author and compile `sass` and `scss` files.
 
 Authors
 -------
 
 **Brajeshwar Oinam**
 
-+ http://brajeshwar.com
-+ http://twitter.com/Brajeshwar
++ Follow [@Brajeshwar](http://twitter.com/Brajeshwar "Title") on Twitter.
++ [Blog](http://brajeshwar.com "Brajeshwar.com")
 
 Copyright, License _et al_
 -------------------------
