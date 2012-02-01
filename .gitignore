@@ -12,9 +12,6 @@
 
 # OS or Editor folders
 .DS_Store
-js/min
-
-# local dev config/*
 Thumbs.db
 .cache
 .project
@@ -34,6 +31,3 @@ nbproject
 .svn
 .CVS
 .idea
-
-# Misc
-js/min
