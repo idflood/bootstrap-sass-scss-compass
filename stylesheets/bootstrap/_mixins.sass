@@ -269,7 +269,7 @@
   border-radius: $radius
 
 // Drop shadows
-=box-shadow($shadow: 0 1px 3px rgba(0, 0, 0, 0.25))
+=box-shadow($shadow: 0 1px 3px rgba($black, 0.25))
   -webkit-box-shadow: $shadow
   -moz-box-shadow: $shadow
   box-shadow: $shadow
@@ -455,18 +455,18 @@
 
 =gradient-striped($color, $angle: -45deg)
   background-color: $color
-  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent))
-  background-image: -webkit-linear-gradient($angle, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent)
-  background-image: -moz-linear-gradient($angle, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent)
-  background-image: -ms-linear-gradient($angle, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent)
-  background-image: -o-linear-gradient($angle, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent)
+  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba($white, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba($white, 0.15)), color-stop(0.75, rgba($white, 0.15)), color-stop(0.75, transparent), to(transparent))
+  background-image: -webkit-linear-gradient($angle, rgba($white, 0.15) 25%, transparent 25%, transparent 50%, rgba($white, 0.15) 50%, rgba($white, 0.15) 75%, transparent 75%, transparent)
+  background-image: -moz-linear-gradient($angle, rgba($white, 0.15) 25%, transparent 25%, transparent 50%, rgba($white, 0.15) 50%, rgba($white, 0.15) 75%, transparent 75%, transparent)
+  background-image: -ms-linear-gradient($angle, rgba($white, 0.15) 25%, transparent 25%, transparent 50%, rgba($white, 0.15) 50%, rgba($white, 0.15) 75%, transparent 75%, transparent)
+  background-image: -o-linear-gradient($angle, rgba($white, 0.15) 25%, transparent 25%, transparent 50%, rgba($white, 0.15) 50%, rgba($white, 0.15) 75%, transparent 75%, transparent)
   //background-image: linear-gradient($angle, rgba(255,255,255,.15) 25%, transparent 25%, transparent 50%, rgba(255,255,255,.15) 50%, rgba(255,255,255,.15) 75%, transparent 75%, transparent);
 
 // Gradient Bar Colors for buttons and alerts
 =gradientBar($primaryColor, $secondaryColor)
   +gradient-vertical($primaryColor, $secondaryColor)
   border-color: $secondaryColor $secondaryColor darken($secondaryColor, 15%)
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) fade-in(rgba(0, 0, 0, 0.1), 0.15)
+  border-color: rgba($black, 0.1) rgba($black, 0.1) fade-in(rgba($black, 0.1), 0.15)
 
 // Reset filters for IE
 =reset-filter

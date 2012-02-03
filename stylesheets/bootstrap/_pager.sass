@@ -14,13 +14,13 @@
 .pager a
   display: inline-block
   padding: 5px 14px
-  background-color: #fff
-  border: 1px solid #ddd
+  background-color: $white
+  border: 1px solid mix($grayLighter, $grayLight, 80) // #ddd
   +border-radius(15px)
 
 .pager a:hover
   text-decoration: none
-  background-color: #f5f5f5
+  background-color: mix($white, $grayLighter, 45) // #f5f5f5
 
 .pager .next a
   float: right

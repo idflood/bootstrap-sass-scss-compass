@@ -10,12 +10,19 @@ $linkColorHover: darken($linkColor, 15) !default
 
 // Grays
 $black: black !default
-$grayDarker: #222222 !default
-$grayDark: #333333 !default
-$gray: #555555 !default
-$grayLight: #999999 !default
-$grayLighter: #eeeeee !default
 $white: white !default
+
+// #222
+$grayDarker: mix($black, $white, 86.5) !default
+// #333
+$grayDark: mix($black, $white, 79.75) !default
+// #555555
+$gray: mix($black, $white, 66.5) !default
+// #999999
+$grayLight: mix($black, $white, 40) !default
+// #eeeeee
+$grayLighter: mix($black, $white, 6.5) !default
+
 
 // Accent colors
 $blue: #049cdb !default
@@ -35,6 +42,9 @@ $textColor: $grayDark !default
 
 // Buttons
 $primaryButtonBackground: $linkColor !default
+
+// used to select good images
+$darkBackground: false !default
 
 // COMPONENT VARIABLES
 // --------------------------------------------------
